@@ -11,10 +11,10 @@ public class Zad12 {
         int[] numbers = {1, 2, 3, 2, 3, 4, 5, 6, 6};
         int value = 0;
 
-        for (int i = 0; i <numbers.length ; i++) {
+        for (int i = 0; i < numbers.length; i++) {
             value = numbers[i];
-            for (int j = i + 1; j <numbers.length ; j++) {
-                if (value==numbers[j]){
+            for (int j = i + 1; j < numbers.length; j++) {
+                if (value == numbers[j]) {
                     System.out.print(value + " ");
                 }
 

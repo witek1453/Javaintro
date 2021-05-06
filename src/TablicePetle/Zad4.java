@@ -15,15 +15,7 @@ public class Zad4 {
         for (int i = 0; i <tab1.length; i++) {
             System.out.println(tab1[i] * tab2[i] + " ");
         }
-        for (int i = 0; i <tab1.length ; i++) {
-            System.out.println("i jest równe: " + i);
-            tab3[i] = tab1[i] * tab2[i];
-        }
 
-        for (int number : tab3) {
-            System.out.println(number + " ");
         }
-
-    }
 
 }
